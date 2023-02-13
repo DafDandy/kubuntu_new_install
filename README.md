@@ -2,7 +2,7 @@
 
 For a new install and all the steps that I had taken so you can get to the same point as me
 
-Just copy and paste the following commands:
+Just copy and paste the following commands:\n
 
 
 sudo dnf install git
