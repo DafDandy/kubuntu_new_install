@@ -7,5 +7,6 @@ sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf makecache
 sudo dnf install steam lutris akmod-nvidia xorg-x11-drv-nvidia-cuda
-sudo dnf update && sudo dnf upgrade -y
 echo "Updating OS"
+sudo dnf update && sudo dnf upgrade -y
+
