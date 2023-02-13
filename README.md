@@ -5,7 +5,7 @@ For a new install and all the steps that I had taken so you can get to the same 
 Just copy and paste the following commands:
 
 
-sudo dnf install git
-https://github.com/DafDandy/Fedora_New_Install
-cd Fedora_New_Install
-chmod u+x new_install.sh
+	sudo dnf install git
+	https://github.com/DafDandy/Fedora_New_Install
+	cd Fedora_New_Install
+	chmod u+x new_install.sh
