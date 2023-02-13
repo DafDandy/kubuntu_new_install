@@ -9,4 +9,4 @@ Just copy and paste the following commands:
 	https://github.com/DafDandy/Fedora_New_Install
 	cd Fedora_New_Install
 	chmod u+x new_install.sh
-	./new_install.sh
+	yes|./new_install.sh
