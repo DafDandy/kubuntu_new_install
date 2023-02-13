@@ -9,4 +9,4 @@ sudo dnf makecache
 sudo dnf install steam lutris akmod-nvidia xorg-x11-drv-nvidia-cuda
 echo "Updating OS"
 sudo dnf update && sudo dnf upgrade -y
-
+sudo reboot
