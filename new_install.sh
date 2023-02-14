@@ -15,7 +15,7 @@ sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo dnf makecache
-sudo dnf install steam lutris akmod-nvidia xorg-x11-drv-nvidia-cuda wine
+sudo dnf install wine gamemode steam lutris akmod-nvidia xorg-x11-drv-nvidia-cuda 
 sudo dnf groupupdate core
 sudo dnf groupupdate sound-and-video
 echo "Updating OS..."
