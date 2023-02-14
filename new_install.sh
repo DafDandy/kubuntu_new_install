@@ -1,4 +1,8 @@
 #!/bin/bash 
+echo Choose your hostname to display in terminal:
+echo example: ryan@hostname
+read hostname
+hostnamectl set-hostname $hostname
 echo "Update configuration file..."
 sleep 3
 sudo sed -i -e '$amax_parallel_downloads=10' /etc/dnf/dnf.conf
