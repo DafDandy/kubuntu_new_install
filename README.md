@@ -18,7 +18,7 @@ These are the main packages that you will need if you are using an nvidia gpu. T
 
 
 	sudo dnf install git
-	https://github.com/DafDandy/Fedora_New_Install
+	git clone https://github.com/DafDandy/Fedora_New_Install
 	cd Fedora_New_Install
 	chmod u+x new_install.sh
 	yes|./new_install.sh
