@@ -22,6 +22,11 @@ These are the main packages that you will need if you are using an nvidia gpu. T
 	cd Fedora_New_Install
 	chmod u+x new_install.sh
 	yes|./new_install.sh
+	
+#### After running the first script go ahead and run the second with the following commands:
+	cd Fedora_New_Install
+	chmod u+x configure.sh
+	yes|./configure.sh
 
 #### If discord gives you any issues and wont launch run these commands to reinstall with flatpak:
 	sudo dnf remove discord
