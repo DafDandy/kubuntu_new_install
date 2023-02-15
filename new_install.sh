@@ -6,11 +6,6 @@ sleep 3
 sudo sed -i -e '$amax_parallel_downloads=10' /etc/dnf/dnf.conf
 sudo sed -i -e '$afastestmirror=True' /etc/dnf/dnf.conf
 
-# Cleaning up the system of bloat
-echo "Cleaning up system..."
-sleep 3
-sudo dnf remove akregator cheese kaddressbook kmail contacts
-
 # Updating OS
 echo "Updating OS..."
 sleep 3
@@ -38,6 +33,11 @@ sudo dnf groupinstall "Development Tools"
 # Downloading the sound and audio packages to make the experience better
 sudo dnf groupupdate core
 sudo dnf groupupdate sound-and-video
+
+# Cleaning up the system of bloat
+echo "Cleaning up system..."
+sleep 3
+sudo dnf remove akregator cheese kaddressbook kmail contacts
 
 # Rebooting the system to apply all changes
 echo "Rebooting sytem to apply changes 5..."
