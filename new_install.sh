@@ -12,10 +12,10 @@ sleep 3
 sudo sed -i -e '$amax_parallel_downloads=10' /etc/dnf/dnf.conf
 sudo sed -i -e '$afastestmirror=True' /etc/dnf/dnf.conf
 
-# Cleaning up the system
+# Cleaning up the system of bloat
 echo "Cleaning up system..."
 sleep 3
-sudo dnf remove akregator cheese kaddressbook
+sudo dnf remove akregator cheese kaddressbook kmail contacts
 
 # Updating OS
 echo "Updating OS..."
