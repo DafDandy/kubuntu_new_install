@@ -1,11 +1,5 @@
 #!/bin/bash 
 
-# Setting up the hostname for the terminal
-echo Choose your hostname to display in terminal:
-echo example: ryan@hostname
-read hostname
-hostnamectl set-hostname $hostname
-
 # Changing the dnf file to speed up downloads and configure the fastest mirror
 echo "Updating configuration file..."
 sleep 3
