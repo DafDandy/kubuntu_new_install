@@ -17,7 +17,10 @@ sleep 3
 sudo dnf update && sudo dnf upgrade -y
 
 # Swapping the gnome with kde desktop
-dnf swap @gnome-desktop @kde-desktop
+sudo dnf install @kde-desktop
+sudo systemctl set-default graphical.target
+sudo systemctl disable gdm
+sudo systemctl enable sddm
 
 # Setting up the rpmfusion repos for free and non-free sources
 sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
