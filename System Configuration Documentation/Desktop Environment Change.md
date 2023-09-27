@@ -1,5 +1,11 @@
 # Swapping Desktops to KDE
-If you want the traditional windows looking desktop like this:
+
+Gnome desktop, the default in fedora, isnt anything like windows so its harder to like. Gnome has no traditional desktop icons and all of your applications act closer to what you would see on an android device
+
+![image](https://github.com/DafDandy/Fedora_New_Install/assets/102477185/3d7bb815-a8c9-4cfd-a5f7-5a84fe14ae01)
+
+
+If you want the traditional desktop that has the windows style application menu like this:
 
 ![desktop](https://github.com/DafDandy/Fedora_New_Install/assets/102477185/ae600f5e-8b0d-43f4-a4ad-6857ca55b75f)
 
