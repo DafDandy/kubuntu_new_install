@@ -12,9 +12,8 @@
 This is usually by hitting F12 during startup
 
 ### For a new install
-These are the main packages that you will need if you are using an nvidia gpu. This includes installing steam, lutris, and the most important thing being the nvidia drivers
 
-#### Just copy and paste the following commands:
+#### Just copy and paste the following commands into the terminal:
 
 
 	sudo dnf install git
@@ -27,7 +26,3 @@ These are the main packages that you will need if you are using an nvidia gpu. T
 	cd Fedora_New_Install
 	chmod u+x configure.sh
 	yes|./configure.sh
-
-#### If discord gives you any issues and wont launch run these commands to reinstall with flatpak:
-	sudo dnf remove discord
-	yes|flatpak install discord
