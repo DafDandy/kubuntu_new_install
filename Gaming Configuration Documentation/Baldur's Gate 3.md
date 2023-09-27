@@ -1,6 +1,19 @@
 # Game configuration
 This game will take awhile to properly install all of the scripts that are needed so be prepared for the wait
 
+#### Killing DirectX install
+
+You will need to kill the DXsetup.exe from the system monitor manually, it will hang up and never complete otherwise
+
+#### After killing the process
+
+You'll be met with compiling shaders, this is a required step that needs to be done for any Nvidia GPU
+
+![image](https://github.com/DafDandy/Fedora_New_Install/assets/102477185/daaf8393-26dd-4feb-acdc-05b21167c3a0)
+
+
+
+
 ## Launcher options
 
 This will bypass the splash screen and auto-launch the game
