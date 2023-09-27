@@ -14,3 +14,7 @@ Next is to ensure that the shader compiling works as intended
 
 Make sure that the pre-caching shaders is selected
 This makes sure that before the game launches the shaders will compile so your game doesnt end up being a choppy mess
+
+If there are certain games that aren't showing up in your library or are acting up you can force them to use proton if they arent native
+
+![image](https://github.com/DafDandy/Fedora_New_Install/assets/102477185/1628b2f4-3c3b-4050-93b6-1be3d61b5ffc)
