@@ -5,6 +5,7 @@ echo "Cleaning up system..."
 sleep 3
 sudo dnf remove akregator cheese kaddressbook kmail contacts
 
+# Asking to install Brave and set to default browser
 printf 'Install Brave Browser? (y/n) '
 old_stty_cfg=$(stty -g)
 stty raw -echo
@@ -18,6 +19,9 @@ if [ "$answer" != "${answer#[Yy]}" ];then
 	sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
 
 	sudo dnf install brave-browser brave-keyring
+
+ 	xdg-settings set default-web-browser brave-browser.desktop
+  
 else
     break
 fi
