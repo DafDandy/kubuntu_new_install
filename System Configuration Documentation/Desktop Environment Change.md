@@ -9,6 +9,10 @@ If you want the traditional desktop that has the windows style application menu 
 
 ![desktop](https://github.com/DafDandy/Fedora_New_Install/assets/102477185/ae600f5e-8b0d-43f4-a4ad-6857ca55b75f)
 
+Run the following command in terminal:
+
+    dnf install @kde-desktop
+
 
 You just need to swap the desktop on the login screen
 
