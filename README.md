@@ -1,5 +1,5 @@
-# Fedora_New_Install
-## Grab the latest image from Fedora:
+# Ubuntu New Install
+## Grab the latest LTS image from Ubuntu:
 	https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso
 
 
@@ -16,13 +16,13 @@ This is usually by hitting F12 during startup
 #### Just copy and paste the following commands into the terminal:
 
 
-	sudo dnf install git
-	git clone https://github.com/DafDandy/Fedora_New_Install
+	sudo apt install git
+	git clone https://github.com/DafDandy/ubuntu_new_install
 	cd Fedora_New_Install
 	chmod u+x new_install.sh
 	yes|./new_install.sh
 	
 #### After running the first script go ahead and run the second with the following commands:
-	cd Fedora_New_Install
+	cd ubuntu_new_install
 	chmod u+x configure.sh
 	yes|./configure.sh
