@@ -11,7 +11,8 @@ If you want the traditional desktop that has the windows style application menu 
 
 Run the following command in terminal:
 
-    sudo dnf install @kde-desktop
+    sudo apt install aptitude
+    aptitude install kde-standard
 
 
 You just need to swap the desktop on the login screen
