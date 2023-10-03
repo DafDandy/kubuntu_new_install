@@ -1,6 +1,6 @@
 # Ubuntu New Install
 ## Grab the latest LTS image from Ubuntu:
-	https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso
+	https://ubuntu.com/download/desktop/thank-you?version=22.04.3&architecture=amd64
 
 
 ## Configuring the boot drive:
