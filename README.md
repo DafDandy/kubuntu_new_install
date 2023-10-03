@@ -6,7 +6,8 @@
 ## Configuring the boot drive:
 	https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21.exe
 	
-![image](https://user-images.githubusercontent.com/102477185/218571697-02dffdba-cb42-47be-9033-393629ba4f47.png)
+![image](https://github.com/DafDandy/ubuntu_new_install/assets/102477185/c1283ff2-7726-47eb-a9d1-4e24ff2aebec)
+
 
 ## Boot into the USB drive that you had created in the post screen
 This is usually by hitting F12 during startup
@@ -18,7 +19,7 @@ This is usually by hitting F12 during startup
 
 	sudo apt install git
 	git clone https://github.com/DafDandy/ubuntu_new_install
-	cd Fedora_New_Install
+	cd ubuntu_new_install
 	chmod u+x new_install.sh
 	yes|./new_install.sh
 	
