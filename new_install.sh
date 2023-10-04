@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade -y
 
 # Swapping the gnome with kde desktop
 sudo apt install aptitude
-aptitude install kde-standard
+sudo aptitude install kde-standard
 
 # Rebooting the system to apply all changes
 echo "Rebooting sytem to apply changes 5..."
