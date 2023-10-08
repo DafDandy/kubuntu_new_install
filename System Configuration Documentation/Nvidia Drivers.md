@@ -12,8 +12,7 @@ Updating and installing all security and important updates on Ubuntu
 
 #### Do not skip the following two commands as you must apply all pending security updates:
 
-    sudo apt update
-    sudo apt upgrade
+    sudo apt update && sudo apt upgrade
 
 At this time, the latest tested proprietary drive version is 535. We can install that one as follows on Ubuntu Linux 20.04 LTS:
 
