@@ -10,9 +10,13 @@ If your disk is not formatted, create a new partition:
     sudo cgdisk /dev/sdb
 and format it:
 
-    sudo mkfs -t ext4 {drive_name}
+Below is an example of the expected drive naming conventions lead by a /dev/
 
 ![image](https://github.com/DafDandy/ubuntu_new_install/assets/102477185/a5b97dc4-76fb-4d2d-bb71-47ddfbeeedac)
+
+    sudo mkfs -t ext4 /dev/drive_name
+
+
 
 Create directory for your hdd:
 
