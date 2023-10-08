@@ -31,7 +31,7 @@ Time to configure your system and install all the same packages that I have so w
 
 Secondly, the configure script will install steam, discord, and other packages needed to have a seamless audio and video experience
 
-In the configure script you'll be asked a few questions:
+#### In the configure script you'll be asked a few questions:
 
 #### Install brave browser?
 
