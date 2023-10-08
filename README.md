@@ -39,7 +39,7 @@ If you choose not to install brave firefox will be your default browser
 
 #### Do you have an Nvidia GPU?
 
-If you answer yes the proper nvidia drivers will be searched for at the time of scripting. There is a few settings that will need to be tweaked that can be found here
+If you answer yes the proper nvidia drivers will be searched for at the time of scripting. There is a few settings that will need to be tweaked that can be found [here](https://github.com/DafDandy/ubuntu_new_install/blob/main/System%20Configuration%20Documentation/Nvidia%20Drivers.md)
 
 If the answer is no then no drivers will be installed. AMD cards do not require drivers since linux has baked in AMD support
 
