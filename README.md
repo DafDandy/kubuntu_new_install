@@ -55,4 +55,4 @@ If the answer is no then no drivers will be installed. AMD cards do not require 
 #### After running the first script go ahead and run the second with the following commands:
 	cd ubuntu_new_install
 	chmod u+x configure.sh
-	yes|./configure.sh
+	./configure.sh
