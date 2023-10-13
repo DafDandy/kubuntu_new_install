@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Cleaning up the system of bloat
-echo "Cleaning up system..."
-sleep 3
-aptitude purge gnome-shell
-
 # Asking to install Brave and set to default browser
 printf 'Install Brave Browser? (y/n) '
 old_stty_cfg=$(stty -g)
@@ -12,15 +7,15 @@ stty raw -echo
 answer=$( while ! head -c 1 | grep -i '[ny]' ;do true ;done )
 stty $old_stty_cfg
 if [ "$answer" != "${answer#[Yy]}" ];then
-	sudo apt install curl
+	sudo nala install curl
 	
 	sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 	
 	echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 	
-	sudo apt update
+	sudo nala update
 	
-	sudo apt install brave-browser
+	sudo nala install brave-browser
 	  
 else
     aptitude install firefox
@@ -34,7 +29,7 @@ stty raw -echo
 answer=$( while ! head -c 1 | grep -i '[ny]' ;do true ;done )
 stty $old_stty_cfg
 if [ "$answer" != "${answer#[Yy]}" ];then
-	sudo apt install nvidia-utils-525-server
+	sudo nala install nvidia-utils-525-server
 else
     break
 fi
@@ -43,13 +38,13 @@ fi
 # Installing the all the packages that I use for a gaming computer
 echo "Installing gaming dependencies and required packages..."
 sleep 3
-sudo apt install wine gamemode steam lutris winetricks vlc gnome-tweaks gnome-extensions-app
+sudo nala install wine gamemode steam lutris winetricks vlc gnome-tweaks gnome-extensions-app
 yes|snap install discord
 
 # Updating OS
 echo "Updating OS..."
 sleep 3
-sudo apt update && sudo apt upgrade -y
+sudo nala update && sudo nala upgrade -y
 
 # Rebooting the system to apply all changes
 echo "Rebooting sytem to apply changes 5..."
