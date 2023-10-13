@@ -11,7 +11,7 @@ If you want the traditional desktop that has the windows style application menu 
 
 Run the following command in terminal:
 
-    sudo apt install aptitude
+    sudo nala install aptitude
     aptitude install kde-standard
 
 
