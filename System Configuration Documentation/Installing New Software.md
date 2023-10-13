@@ -10,7 +10,7 @@ You are able to search for most applications and install them with one click fro
 
 #### Terminal
 
-    sudo apt install brave-browser
+    sudo nala install brave-browser
 
 This will install the same package from the terminal which will require no additional configuration, but not all packages are as plainly labled as this.
 
@@ -25,5 +25,6 @@ Depending on the package that you are trying to install or the repository that t
     snap
     yum
     flatpak
+    apt
 
 These package managers shouldnt be used with the sudo command unless it requires it. 
