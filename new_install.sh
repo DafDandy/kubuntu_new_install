@@ -10,7 +10,8 @@ stty raw -echo
 answer=$( while ! head -c 1 | grep -i '[ny]' ;do true ;done )
 stty $old_stty_cfg
 if [ "$answer" != "${answer#[Yy]}" ];then
-	sudo nala install nvidia-utils-525-server
+	sudo nala install aptitude
+	sudo aptitude install kde-standard
 else
     break
 fi
