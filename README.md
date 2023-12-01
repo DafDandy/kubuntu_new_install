@@ -50,7 +50,7 @@ If the answer is no then no drivers will be installed. AMD cards do not require 
 	git clone https://github.com/DafDandy/ubuntu_new_install
 	cd ubuntu_new_install
 	chmod u+x new_install.sh
-	yes|./new_install.sh
+	./new_install.sh
 
 ### Before running the next commands please take a look at the 2 main [desktop environments](https://linuxhint.com/comparing_kde_vs_gnome/) to determine if you want to swap out for another one. You can read the article to determine for yourself what the best use case is for you, I chose KDE since it is lighter weight and looks more like windows.
 
