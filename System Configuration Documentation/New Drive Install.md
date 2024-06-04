@@ -23,8 +23,10 @@ Create directory for your hdd:
     sudo mkdir /media/storage
 Run sudo blkid again, note the UUID of your /dev/sdb1 partition and add it into /etc/fstab (make a backup of fstab by installing etckeeper - this file is important):
 
-UUID="b4c93..."  /media/storage  ext4  defaults  0  2
-fstab wiki page describes what does it mean. This should make it persistent over reboots.
+# Be extremely careful editing the fstab, this can appear to brick your system if you change the boot loader
+
+UUID="b4c93..."  /media/storage  ext4  defaults  0  0
+
 
 Finally mount it without rebooting to test:
 
