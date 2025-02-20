@@ -34,6 +34,18 @@ else
     break
 fi
 
+# Asking to install Nvidia drivers for fedora
+printf 'Remove GNOME Desktop? (y/n) '
+old_stty_cfg=$(stty -g)
+stty raw -echo
+answer=$( while ! head -c 1 | grep -i '[ny]' ;do true ;done )
+stty $old_stty_cfg
+if [ "$answer" != "${answer#[Yy]}" ];then
+	sudo apt-get remove --auto-remove ubuntu-gnome-desktop
+else
+    break
+fi
+
 
 # Installing the all the packages that I use for a gaming computer
 echo "Installing gaming dependencies and required packages..."
