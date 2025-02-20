@@ -22,7 +22,7 @@ sleep 3
 sudo nala update && sudo nala upgrade -y
 
 # Rebooting the system to apply all changes
-echo "Rebooting sytem to apply changes 5..."
+echo "Rebooting system to apply changes 5..."
 sleep 1
 echo "4..."
 sleep 1
