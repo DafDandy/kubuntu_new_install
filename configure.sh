@@ -38,8 +38,8 @@ fi
 # Installing the all the packages that I use for a gaming computer
 echo "Installing gaming dependencies and required packages..."
 sleep 3
-sudo nala install wine gamemode steam lutris winetricks vlc gnome-tweaks gnome-extensions-app
-yes|snap install discord
+sudo nala install wine gamemode steam winetricks vlc discord flatpak
+
 
 # Updating OS
 echo "Updating OS..."
@@ -47,7 +47,7 @@ sleep 3
 sudo nala update && sudo nala upgrade -y
 
 # Rebooting the system to apply all changes
-echo "Rebooting sytem to apply changes 5..."
+echo "Rebooting system to apply changes 5..."
 sleep 1
 echo "4..."
 sleep 1

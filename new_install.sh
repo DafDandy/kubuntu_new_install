@@ -4,17 +4,10 @@
 sudo apt install nala
 
 # Install KDE
-printf 'Do you want to install KDE Desktop? (y/n) '
-old_stty_cfg=$(stty -g)
-stty raw -echo
-answer=$( while ! head -c 1 | grep -i '[ny]' ;do true ;done )
-stty $old_stty_cfg
-if [ "$answer" != "${answer#[Yy]}" ];then
-	sudo nala install aptitude
-	sudo aptitude install kde-standard
-else
-    break
-fi
+echo "Installing KDE Desktop..."
+sudo nala install aptitude
+sudo aptitude install kde-standard
+
 
 # Updating OS
 echo "Updating OS..."
