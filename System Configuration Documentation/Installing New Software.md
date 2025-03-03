@@ -8,15 +8,39 @@ On Ubuntu software can be installed a number of ways instead of the traditional 
 
 You are able to search for most applications and install them with one click from the ubuntu repository that is maintained by the developers of the ubuntu distro. These packages are typically quite secure and will require no use of the terminal
 
-#### Terminal
+#### Terminal Example:
 
-    sudo nala install brave-browser
+    sudo nala install package-name
+
+Breaking down the syntax:
+
+**sudo** - This is your admin level execution. Only use this if you know what you're doing as this is root level access
+
+**nala** - This is your package manager, for ubuntu/debian based distros the default is apt, which will still work, nala is just cleaner
+
+**install** - Command to install
+
+**package**-name - Name of the package that you're trying to install
 
 This will install the same package from the terminal which will require no additional configuration, but not all packages are as plainly labled as this.
 
 #### Note about terminal:
 
-The terminal should only be used if you are confident that you know what is happening and what you are installing. Any package that is being installed requires root user access and has admin permissions. If you are not confident that you know what is being installed or are being told to put commands more than you can recognize do not use terminal.
+The terminal should only be used if you are confident that you know what is happening and what you are installing. 
+Any package that is being installed requires root user access and has admin permissions. 
+If you are not confident that you know what is being installed or are being told to put commands more than you 
+can recognize do not use terminal.
+
+##### Additional not about terminal
+
+You can also search for packages instead of looking online how to install packages. 
+Let's see an example:
+
+    nala search package-name
+
+
+This will list the entire repository that matches the package that you listed if the package exists.
+It will also tell you whether or not the package is already installed on your system
 
 #### Other package manager methods:
 

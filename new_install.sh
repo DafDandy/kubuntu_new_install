@@ -15,17 +15,18 @@ yes | sudo apt autoremove
 #Installing brave browser
 snap install brave
 
-# Updating OS
-echo "Updating OS..."
-sleep 3
-yes | sudo nala update
-yes | sudo nala upgrade
-
+#Moving files to the desktop for easy access
 mv LinuxUpdate.sh /home/$USER/Desktop/
 chmod u+x /home/$USER/Desktop/LinuxUpdate.sh
 
 mv UpdateDiscord.sh /home/$USER/Desktop/
 chmod u+x /home/$USER/Desktop/UpdateDiscord.sh
+
+# Updating OS
+echo "Updating OS..."
+sleep 3
+yes | sudo nala update
+yes | sudo nala upgrade
 
 # Rebooting the system to apply all changes
 echo "Rebooting system to apply changes 5..."

@@ -1,6 +1,6 @@
 # Ubuntu New Install
-## Grab the latest LTS image from Ubuntu:
-	https://ubuntu.com/download/desktop
+## Grab the latest image from Kubuntu:
+	https://cdimage.ubuntu.com/kubuntu/releases/24.10/release/kubuntu-24.10-desktop-amd64.iso
 
 
 ## Configuring the boot drive:
@@ -13,35 +13,21 @@
 
 This is usually by hitting F12 during startup
 
-Once you successfully boot you'll be met at the desktop with the ubuntu installer as an icon. 
+Once you successfully boot you'll be met at the desktop with the kubuntu installer as an icon. 
 
-![image](https://github.com/DafDandy/ubuntu_new_install/assets/102477185/6fd23204-3c50-4aa5-b2fa-62571d89c924)
+![img.png](img.png)
 
-Run through the installer wizard just as you would with any windows install by selecting the drive you want to install it on, setting up the user name and password and optional encryption level.
+Run through the installer wizard just as you would with any windows install by selecting the drive you want to install it on, setting up the username and password and optional encryption level.
+Disk setup you're going to want to install everything by erasing the entire disk
+
+The default and preferred format type is EXT4
+##### WARNING: BE SURE YOU'RE ACCESSING THE CORRECT DRIVE. YOU ARE DELETING EVERYTHING
+If prompted to set up swap volume you can skip it. Swap is not required for the average user
 
 #### Upon completing install
 
 Reboot your machine and remove the install usb when prompted to
 
-
-
-### First time boot
-
-Time to configure your system and install all the same packages that I have so we will all have simular systems. The scripts you'll be executing will update and upgrade the OS to the most recent version, including installing all the additional security patches that have not made it into the main installer.
-
-Secondly, the configure script will install steam, discord, and other packages needed to have a seamless audio and video experience
-
-#### In the configure script you'll be asked a few questions:
-
-#### Install brave browser?
-
-If you choose not to install brave firefox will be your default browser
-
-#### Do you have an Nvidia GPU?
-
-If you answer yes the proper nvidia drivers will be searched for at the time of scripting. There is a few settings that will need to be tweaked that can be found [here](https://github.com/DafDandy/ubuntu_new_install/blob/main/System%20Configuration%20Documentation/Nvidia%20Drivers.md)
-
-If the answer is no then no drivers will be installed. AMD cards do not require drivers since linux has baked in AMD support
 
 #### Just copy and paste the following commands into the terminal:
 
@@ -51,14 +37,3 @@ If the answer is no then no drivers will be installed. AMD cards do not require 
 	cd ubuntu_new_install
 	chmod u+x new_install.sh
 	./new_install.sh
-
-### Before running the next commands please take a look at the 2 main [desktop environments](https://linuxhint.com/comparing_kde_vs_gnome/) to determine if you want to swap out for another one. You can read the article to determine for yourself what the best use case is for you, I chose KDE since it is lighter weight and looks more like windows.
-
-#### If you want to switch to KDE do it before the next commands by following [this](https://github.com/DafDandy/ubuntu_new_install/blob/main/System%20Configuration%20Documentation/Desktop%20Environment%20Change.md)
-
-
-	
-#### After running the first script go ahead and run the second with the following commands:
-	cd ubuntu_new_install
-	chmod u+x configure.sh
-	./configure.sh
