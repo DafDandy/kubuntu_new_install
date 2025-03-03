@@ -3,16 +3,29 @@
 # Installing Nala package manager
 sudo apt install nala
 
-# Install KDE
-echo "Installing KDE Desktop..."
-sudo nala install aptitude
-sudo aptitude install kde-standard
+echo "Installing gaming dependencies and required packages..."
+sleep 3
+yes | sudo nala install wine gamemode steam-installer winetricks vlc flatpak kde-config-flatpak
 
+echo "Cleaning up system..."
+sleep 3
+yes | sudo nala remove kmahjongg kmines kpat ksudoku firefox krcd
+yes | sudo apt autoremove
+
+#Installing brave browser
+snap install brave
 
 # Updating OS
 echo "Updating OS..."
 sleep 3
-sudo nala update && sudo nala upgrade -y
+yes | sudo nala update
+yes | sudo nala upgrade
+
+mv LinuxUpdate.sh /home/$USER/Desktop/
+chmod u+x /home/$USER/Desktop/LinuxUpdate.sh
+
+mv UpdateDiscord.sh /home/$USER/Desktop/
+chmod u+x /home/$USER/Desktop/UpdateDiscord.sh
 
 # Rebooting the system to apply all changes
 echo "Rebooting system to apply changes 5..."
