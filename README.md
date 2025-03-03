@@ -1,10 +1,10 @@
 # Ubuntu New Install
 ## Grab the latest LTS image from Ubuntu:
-	https://ubuntu.com/download/desktop/thank-you?version=22.04.3&architecture=amd64
+	https://ubuntu.com/download/desktop
 
 
 ## Configuring the boot drive:
-	https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21.exe
+	https://github.com/pbatard/rufus/releases/download/
 	
 ![image](https://github.com/DafDandy/ubuntu_new_install/assets/102477185/c1283ff2-7726-47eb-a9d1-4e24ff2aebec)
 
