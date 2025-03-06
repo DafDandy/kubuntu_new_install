@@ -1,4 +1,4 @@
-# Ubuntu New Install
+# Kubuntu New Install
 ## Grab the latest image from Kubuntu:
 	https://cdimage.ubuntu.com/kubuntu/releases/24.10/release/kubuntu-24.10-desktop-amd64.iso
 
