@@ -5,7 +5,7 @@ sudo apt install nala
 
 echo "Installing gaming dependencies and required packages..."
 sleep 2
-yes | sudo nala install wine gamemode steam-installer winetricks vlc flatpak kde-config-flatpak
+yes | sudo nala install wine gamemode steam-installer winetricks vlc flatpak kde-config-flatpak timemachine
 
 echo "Cleaning up system..."
 sleep 2
