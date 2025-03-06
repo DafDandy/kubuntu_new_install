@@ -50,7 +50,7 @@ eg: ctrl+c kills the terminal process
 ![image](https://github.com/user-attachments/assets/8307c119-da38-44c3-8dae-a3b32d6641c8)
 
 	sudo apt install git
-	git clone https://github.com/DafDandy/ubuntu_new_install
-	cd ubuntu_new_install
+	git clone https://github.com/DafDandy/kubuntu_new_install
+	cd kubuntu_new_install
 	chmod u+x new_install.sh
 	./new_install.sh
