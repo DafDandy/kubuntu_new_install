@@ -29,6 +29,10 @@ sleep 2
 yes | sudo nala update
 yes | sudo nala upgrade
 
+# motivational speech
+echo "Buckle up buttmunch, its gaming time"
+sleep 5
+
 # Rebooting the system to apply all changes
 echo "Rebooting system to apply changes 5..."
 sleep 1
