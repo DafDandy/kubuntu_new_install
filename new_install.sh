@@ -4,16 +4,17 @@
 sudo apt install nala
 
 echo "Installing gaming dependencies and required packages..."
-sleep 3
+sleep 2
 yes | sudo nala install wine gamemode steam-installer winetricks vlc flatpak kde-config-flatpak
 
 echo "Cleaning up system..."
-sleep 3
+sleep 2
 yes | sudo nala remove kmahjongg kmines kpat ksudoku firefox krcd
 yes | sudo apt autoremove
 
 #Installing brave browser
 snap install brave
+snap install discord
 
 #Moving files to the desktop for easy access
 mv LinuxUpdate.sh /home/$USER/Desktop/
@@ -24,7 +25,7 @@ chmod u+x /home/$USER/Desktop/UpdateDiscord.sh
 
 # Updating OS
 echo "Updating OS..."
-sleep 3
+sleep 2
 yes | sudo nala update
 yes | sudo nala upgrade
 
