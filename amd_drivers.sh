@@ -6,6 +6,7 @@ answer=$( while ! head -c 1 | grep -i '[ny]' ;do true ;done )
 stty $old_stty_cfg
 if [ "$answer" != "${answer#[Yy]}" ];then
 	sudo nala remove nvidia*
+ 	sudo nala install amdvulkan mesa
 else
     break
 fi
