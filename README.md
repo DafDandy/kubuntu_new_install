@@ -15,7 +15,8 @@ This is usually by hitting F12 during startup
 
 Once you successfully boot you'll be met at the desktop with the kubuntu installer as an icon. 
 
-![img.png](img.png)
+![image](https://github.com/user-attachments/assets/70b8e06d-f538-4675-a0fa-9530f4ba1824)
+
 
 Run through the installer wizard just as you would with any windows install by selecting the drive you want to install it on, setting up the username and password and optional encryption level.
 Disk setup you're going to want to install everything by erasing the entire disk
