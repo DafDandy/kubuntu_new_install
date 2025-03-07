@@ -3,13 +3,19 @@
 # Installing Nala package manager
 sudo apt install nala
 
+# Updating OS
+echo "Updating OS..."
+sleep 2
+yes | sudo nala update
+yes | sudo nala upgrade
+
 echo "Installing gaming dependencies and required packages..."
 sleep 2
-yes | sudo nala install wine gamemode steam-installer winetricks vlc flatpak kde-config-flatpak timemachine
+yes | sudo nala install wine gamemode steam-installer winetricks vlc flatpak kde-config-flatpak timeshift
 
 echo "Cleaning up system..."
 sleep 2
-yes | sudo nala remove kmahjongg kmines kpat ksudoku firefox krcd
+yes | sudo nala remove kmahjongg kmines kpat ksudoku firefox
 yes | sudo apt autoremove
 
 #Installing brave browser
@@ -22,12 +28,6 @@ chmod u+x /home/$USER/Desktop/LinuxUpdate.sh
 
 mv UpdateDiscord.sh /home/$USER/Desktop/
 chmod u+x /home/$USER/Desktop/UpdateDiscord.sh
-
-# Updating OS
-echo "Updating OS..."
-sleep 2
-yes | sudo nala update
-yes | sudo nala upgrade
 
 # motivational speech
 echo "Buckle up buttmunch, its gaming time"
