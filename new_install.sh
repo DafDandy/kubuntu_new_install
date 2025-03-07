@@ -29,6 +29,8 @@ chmod u+x /home/$USER/Desktop/LinuxUpdate.sh
 mv UpdateDiscord.sh /home/$USER/Desktop/
 chmod u+x /home/$USER/Desktop/UpdateDiscord.sh
 
+chmod u+x gpu_drivers.sh
+
 # motivational speech
 echo "Buckle up buttmunch, its gaming time"
 sleep 5
