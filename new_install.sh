@@ -11,7 +11,7 @@ yes | sudo nala upgrade
 
 echo "Installing gaming dependencies and required packages..."
 sleep 2
-yes | sudo nala install wine gamemode steam-installer winetricks vlc flatpak kde-config-flatpak timeshift
+yes | sudo nala install wine gamemode steam-installer winetricks vlc flatpak kde-config-flatpak timeshift goverlay mangohud
 
 echo "Cleaning up system..."
 sleep 2
